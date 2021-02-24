@@ -11,7 +11,7 @@ html {
     font-family: 'Sen', sans-serif;
     z-index: 1;
 }
-.nav-link a{
+.nav-link:link{
     text-decoration: none;
     color: black;
 }
