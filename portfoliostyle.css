@@ -10,6 +10,8 @@ html {
     font-size: 1em;
     font-family: 'Sen', sans-serif;
     z-index: 1;
+}
+.nav-link a{
     color: black;
 }
 .nav-link:visited {
