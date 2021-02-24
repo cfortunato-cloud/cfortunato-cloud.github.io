@@ -12,6 +12,7 @@ html {
     z-index: 1;
 }
 .nav-link a{
+    text-decoration: none;
     color: black;
 }
 .nav-link:visited {
