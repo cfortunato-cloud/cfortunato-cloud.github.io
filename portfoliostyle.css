@@ -214,8 +214,15 @@ footer{
 }
 
 @media only screen and (orientation: landscape ) and (max-width: 741px){
+     #page-home img {
+        display: none;
+    }
+    
     #intro {
         height: 230vh;
+    }
+     #intro img {
+        display: none;
     }
     #work{
         height: 180vh;
