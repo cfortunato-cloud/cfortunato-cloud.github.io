@@ -213,7 +213,7 @@ footer{
     }
 }
 
-@media only screen and (orientation: landscape ) and (max-width: 741px){
+@media only screen and (orientation: landscape ) and (max-width: 900px){
      #page-home img {
         display: none;
     }
