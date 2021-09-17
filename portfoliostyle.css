@@ -8,12 +8,13 @@ html {
 
 .nav-link{
     font-size: 1em;
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     z-index: 1;
+    
 }
 .nav-link:link{
     text-decoration: none;
-    color: black;
+    color: black
 }
 .nav-link:visited {
     text-decoration: none;
@@ -49,15 +50,15 @@ body{
     align-items: center;
 }
 #page-title{
-    font-family: futura, sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 4em;
     color: whitesmoke;
-    margin-left: 40px;
+    margin-left: 30px;
 
 }
 
 h3 {
-    font-family: futura, sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 1.3em;
     color: whitesmoke;
     margin-left: 40px;
@@ -72,13 +73,13 @@ h3 {
 }
 #intro h3{
     text-align: left;
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 2.6em;
     color: #005f4b;
 }
 #intro p{
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 1.3em; 
     padding-right: 20px;
 }
@@ -94,7 +95,7 @@ h3 {
     padding-top: 30px;
 }
 #work h3{
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 3em;
     color: whitesmoke;
     padding-top: 30px;
@@ -117,6 +118,7 @@ a.button {
     -ms-transform: translate(-50%, -50%);
     background-color: #005f4b;
     color: whitesmoke;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 16px;
     padding: 16px 30px;
     border: none;
@@ -138,31 +140,32 @@ a.button:hover {
     padding-top: 50px;
 }
 #contactme {
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 3em;
     color: #005f4b;
+    padding-right: 40px;
 }
 #contact p{
     vertical-align: middle;
-    font-family: 'Inter', sans-serif;
-    font-size: 1em; 
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.2em; 
 }
 #contact h6{
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 1.5em;
 }
 #contact a{
-    font-family: 'Sen', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 1.5em;
     color: black;
 }
 #contact a:hover{
-color: black;
-text-decoration: underline;
-text-decoration-thickness: 6px;
-text-decoration-color: #005f4b;
-text-underline-offset: -1px;
-text-decoration-skip-ink: none;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #005f4b;
+    text-underline-offset: -1px;
+    text-decoration-skip-ink: none;
 }
 i {
     font-size: 60px;
@@ -178,7 +181,7 @@ i {
 footer{
     height: 30vh;
     padding-top: 10px;
-    font-family: futura, sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 1em; 
     color: whitesmoke;
     background-color: #005f4b;
@@ -192,7 +195,7 @@ footer{
     z-index: 1;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 800px) {
     #page-home img {
         display: none;
     }
@@ -213,16 +216,18 @@ footer{
     }
 }
 
-@media only screen and (orientation: landscape ) and (max-width: 900px){
-     #page-home img {
+@media screen and (max-width: 900px) {
+    #about img{
         display: none;
     }
-    
+    #about{
+        height: 50vh;
+    }
+}
+
+@media only screen and (orientation: landscape ) and (max-width: 741px){
     #intro {
         height: 230vh;
-    }
-     #intro img {
-        display: none;
     }
     #work{
         height: 180vh;
